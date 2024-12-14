@@ -1,0 +1,38 @@
+.blogsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  columns: 2;
+  gap: 10px;
+  padding: 10px;
+}
+
+.blogThumbnail {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 100%;
+  border: 1px dotted green;
+  padding: 10px;
+  border-radius: 15px;
+
+  header>h1 {
+    font-size: 24px;
+
+    a:hover {
+      opacity: 80%;
+    }
+  }
+
+  header>h2 {
+    opacity: 80%;
+    font-size: 20px;
+  }
+}
+
+.articleStart::first-letter {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+section>p {
+  line-height: 1.6;
+}
